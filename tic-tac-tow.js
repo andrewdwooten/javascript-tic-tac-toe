@@ -18,6 +18,7 @@ $(document).ready(function(){
   }
   var clearBoard = function(){
     $('td').html("''");
+    turnCount = 0
   }
 
   var didXwin = function(string){
